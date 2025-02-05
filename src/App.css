@@ -1,0 +1,283 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+  
+
+.heading-container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.heading-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-title{
+  margin:0;
+}
+
+.heading-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+}
+
+.heading-contact-info p {
+  margin: 0;
+  line-height: 2.5;
+}
+
+.container{
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+
+.title{
+  margin:0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap:0px;
+}
+
+.contact-info p {
+  margin: 0;
+  line-height: 2.5;
+} 
+
+.divider {
+  margin-top: 20px;
+  height: 4px;
+  background-color: #f2c12e;
+  
+} 
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  
+}
+
+.personal{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+
+
+}
+
+.personal h3{
+  margin: 0;
+  white-space: nowrap;
+
+}
+
+.personal p{
+  margin: 0;
+  text-align: justify;
+  margin-bottom: 40px;
+} 
+
+.divider2{
+  height: 2px;
+  background-color: #3a321a;
+  margin-bottom: 20px;
+}
+
+.container{
+  flex: 1;
+}
+.work{
+
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  
+
+}
+
+.work h3{
+  margin: 0;
+  white-space: nowrap;
+
+}
+
+.job{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.job p{
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 20px;
+
+}
+
+
+.subwork h3{ 
+  margin: 0; 
+  white-space: nowrap;
+  
+}
+
+.divider3{
+  height: 2px;
+  background-color: #3a321a;
+  margin-bottom: 20px;
+}
+
+.job2 {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.job2 p{
+  margin: 0;
+  text-align: justify;
+  margin-bottom: 20px;
+  
+
+}
+
+.skills{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.skills h3{
+  margin: 0;
+  white-space: nowrap;
+  min-width: 85px;
+}
+
+.key{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 40px;
+  row-gap: 5px;
+  margin: 0;
+  margin-left: 60px;
+}
+
+.key p{
+  margin: 0;
+  white-space: nowrap;
+}
+
+.divider4{
+  margin-top: 30px;
+  height: 2px;
+  background-color: #3a321a;
+  margin-bottom: 10px;
+}
+
+.ed {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+
+.education{ 
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+} 
+
+.education h3{
+  margin: 0;
+  white-space: nowrap;
+}
+
+.subeducation{
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+}
+
+.subeducation h3{ 
+  margin: 0; 
+  white-space: nowrap;
+  margin-bottom: 10px;
+
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.col p{
+  margin: 0;
+  white-space: nowrap;
+  
+}
+ 
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
