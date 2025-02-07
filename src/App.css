@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .heading-title{
@@ -87,9 +88,13 @@
 } 
 
 .divider {
-  margin-top: 20px;
+  margin-top: 0px;
   height: 4px;
   background-color: #f2c12e;
+  
+
+ 
+  
   
 } 
 
